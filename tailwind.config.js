@@ -6,5 +6,9 @@ module.exports = {
 			sans: ['Lexend', 'sans-serif']
 		}
 	},
-	plugins: []
+	plugins: [require("daisyui")],
+	daisyui: {
+		logs: false
+	}
+
 };
