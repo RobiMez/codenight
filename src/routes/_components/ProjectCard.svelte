@@ -34,7 +34,8 @@
 </script>
 
 <div
-  class="relative flex flex-col items-center justify-center gap-2 rounded-md border-2 border-transparent bg-stone-100 p-6 py-20 transition-all hover:border-stone-400"
+  class="relative flex flex-col items-center justify-center gap-2 rounded-md border-2 border-transparent bg-stone-100 p-6 py-20 transition-all hover:border-stone-400 
+  {$$props.class}"
   role="complementary"
   bind:clientHeight={cardH}
   bind:clientWidth={cardW}

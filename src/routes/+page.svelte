@@ -29,7 +29,7 @@
   <div class="flex flex-col gap-2 pt-28">
     <h1 class=" text-center text-6xl font-black text-stone-700">Code night</h1>
     <h3 class=" text-center text-lg text-stone-500">"The" community for Ethiopian developers.</h3>
-    <p class="px-44 text-center font-light text-stone-700">
+    <p class="px-12 text-center font-light text-stone-700 md:px-36 lg:px-44">
       Codenight is a community of developers that are interested in showcasing their projects. We
       offer a platform and community for developers to display their work publicly and reach
       likeminded people who are interested in growing together.
@@ -41,7 +41,7 @@
   <section class="flex flex-col gap-6 pt-16">
     <div class="mx-auto flex w-full flex-col items-center justify-center">
       <div
-        class="px-auto divider min-w-full max-w-xs px-96
+        class="px-auto divider min-w-full max-w-xs
         text-center text-sm font-normal text-stone-700"
       >
         Our Programs
@@ -51,8 +51,9 @@
       </h2>
     </div>
     <div>
-      <div class="flex columns-3 flex-row justify-around gap-4">
+      <div class="columns-1 justify-around gap-4 gap-y-4 xl:columns-3">
         <ProjectCard
+          class="mb-8"
           title="Debugging session"
           description="Ask your questions and get answers from experienced developers."
           dateString="Wednesdays"
@@ -63,6 +64,7 @@
           <Bug weight="duotone" size="32" slot="bg-icons" />
         </ProjectCard>
         <ProjectCard
+          class="mb-8"
           title="Open mic Discussions"
           description="Join our weekly discussion about the latest technologies and trends."
           dateString="Sundays"
@@ -73,6 +75,7 @@
         </ProjectCard>
 
         <ProjectCard
+          class="mb-8"
           title="Chatting with devs"
           description="Chat with other developers and share your knowledge."
           dateString="24/7"
@@ -84,9 +87,13 @@
       </div>
     </div>
   </section>
-  <section class=" relative my-32 flex flex-row justify-center gap-12 rounded-md bg-stone-700 p-12">
-    <div class="w-50 h-80 bg-stone-100 text-stone-50 absolute top-1/2 left-60 transform -translate-x-1/2 -translate-y-1/2 rounded-md p-48">3d cube</div>
-    <p class="pl-[50%] font-light text-stone-100">
+  <section class=" relative xl:my-32 flex flex-row justify-center gap-12 rounded-md bg-stone-700 p-12">
+    <div
+      class="w-50 hidden absolute xl:block left-60 top-1/2 h-80 -translate-x-1/2 -translate-y-1/2 transform rounded-md bg-stone-100 p-48 text-stone-400"
+    >
+      Pretend there is <br>a 3d cube here.
+    </div>
+    <p class="xl:pl-[50%] font-light text-stone-100">
       CodeNight Developers Community is a community of developers who are passionate about coding,
       software development, and technology in general. the community are individuals from diverse
       backgrounds and experiences, all coming together to learn from one another and contribute to
