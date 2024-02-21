@@ -8,7 +8,7 @@
   );
 
   let intervalId = setInterval(() => {
-    countDownFor -= 1 * 999;
+    countDownFor -= 1011;
     textString = prettyMilliseconds(countDownFor, { secondsDecimalDigits: 0 }).split(' ');
   }, 1000);
 

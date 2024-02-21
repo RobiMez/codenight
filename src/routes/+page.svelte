@@ -51,7 +51,7 @@
       </h2>
     </div>
     <div>
-      <div class="columns-1 justify-around gap-4 gap-y-4 xl:columns-3">
+      <div class="columns-1 flex flex-col xl:flex-row justify-around gap-4 xl:columns-3 break-inside-avoid-column break-after-column ">
         <ProjectCard
           class="mb-8"
           title="Debugging session"

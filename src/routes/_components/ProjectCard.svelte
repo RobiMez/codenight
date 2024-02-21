@@ -33,10 +33,10 @@
   $: console.log(cardH, cardW);
 </script>
 
+<!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
-  class="relative flex flex-col items-center justify-center gap-2 rounded-md border-2 border-transparent bg-stone-100 p-6 py-20 transition-all hover:border-stone-400 
+  class="relative inline-flex xl:flex flex-col items-center justify-center gap-2 rounded-md border-2 border-transparent bg-stone-100 p-6 py-20 transition-all hover:border-stone-400 
   {$$props.class}"
-  role="complementary"
   bind:clientHeight={cardH}
   bind:clientWidth={cardW}
   on:mouseenter={() => (isHovered = true)}
